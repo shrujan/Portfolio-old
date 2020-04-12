@@ -1,5 +1,14 @@
-$color: red;
+$color: #eeeeee;
+$height: 50px;
+$background-color: #000000;
+
+%hamburger{
+    height: 50px;
+    width: 50px;
+}
 
 .header {
-    color: $color
+    color: $color;
+    background-color: $background-color;
+    height: $height;
 }

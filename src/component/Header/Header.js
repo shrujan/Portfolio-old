@@ -14,9 +14,9 @@ import './Header.scss'
 const Header = () => {
     return (
         <div>
-           
                 <BrowserRouter>
                     <div className='header'>
+                        
                         <Routing></Routing>
                     </div>
 
